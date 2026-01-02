@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/weather.py": {
-      "runtime": "python3.9"
+      "runtime": "python@3.11"
     }
   },
   "rewrites": [
@@ -11,4 +11,3 @@
     }
   ]
 }
-
