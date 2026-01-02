@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/weather.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/weather",
+      "destination": "/api/weather.py"
+    }
+  ]
+}
+
